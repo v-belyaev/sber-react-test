@@ -1,0 +1,43 @@
+@import "normalize.css/normalize.css"
+@import "./_fonts.scss"
+
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+*:focus
+  outline: none
+
+*
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+
+body
+  font-family: "Roboto", sans-serif
+  background-image: $main-gradient
+  background-attachment: fixed
+  width: 100vw
+  height: 100vh
+  height: calc(var(--vh, 1vh) * 100)
+
+h1, h2, h3, h4, h5, h6
+  font-size: 1rem
+  font-weight: 400
+  margin: 0
+  padding: 0
+
+p
+  padding: 0
+  margin: 0
+
+a
+  text-decoration: none
+
+main, svg
+  display: block
+
+button
+  margin: 0
+  padding: 0
+  border: 0

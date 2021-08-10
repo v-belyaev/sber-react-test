@@ -1,0 +1,19 @@
+.button
+  display: flex
+  flex-flow: row nowrap
+  align-items: center
+  justify-content: center
+  width: 180px
+  height: 44px
+  background-color: $green-color
+  border-radius: 4px
+  box-shadow: 2px 4px 12px rgba(10, 26, 13, 0.2)
+  color: $white-color
+  font-weight: 500
+  transition-duration: 0.3s
+  transition-timing-function: ease
+  transition-property: background-color box-shadow
+
+  &:hover
+    background-color: $green-active-color
+    box-shadow: 2px 4px 16px rgba(10, 26, 13, 0.4)
